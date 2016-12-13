@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'mafengwo.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'mafengwo (+http://www.yourdomain.com)'
+USER_AGENT = 'mafengwo (+http://www.yourdomain.cn)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -88,3 +88,13 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# start MySQL config
+MySQL = {
+    'db_host' : '139.224.61.174', 
+    'db_port' : 3306,
+    'db_user' : 'mafengwo_user',
+    'db_password' : 'mafengwo_passwd',
+    'db_dbname': 'mafengwo',
+}
+#  end  MySQL config

@@ -11,4 +11,6 @@ import scrapy
 class MafengwoItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    cn_name = scrapy.Field()
+    en_name = scrapy.Field()
+    url = scrapy.Field()
