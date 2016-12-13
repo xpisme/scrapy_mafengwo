@@ -91,10 +91,10 @@ ROBOTSTXT_OBEY = True
 
 # start MySQL config
 MySQL = {
-    'db_host' : '139.224.61.174', 
+    'db_host' : '127.0.0.1', 
     'db_port' : 3306,
-    'db_user' : 'mafengwo_user',
-    'db_password' : 'mafengwo_passwd',
+    'db_user' : 'user',
+    'db_password' : 'passwd',
     'db_dbname': 'mafengwo',
 }
 #  end  MySQL config
